@@ -19,7 +19,7 @@ foreach (var character in highAttackers)
 
 var sortedCharacters = characterGroup.SortCharactersByName;
 
-foreach (var character in sortedCharacters)
+foreach (var character in sortedCharacters())
 {
     Console.WriteLine($"Character: {character.Name}");
 }
