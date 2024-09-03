@@ -5,7 +5,7 @@ public class Skill
 {
     public string SkillName;
     public int Damage;
-    
+
     public Skill()
     {
         SkillName = "Unnamed Skill";
@@ -13,7 +13,7 @@ public class Skill
     }
 
     // Метод для расчета урона навыка
-    public void CalculateSkillDamage()
+    public int CalculateSkillDamage()
     {
         return Damage * 2;
     }
